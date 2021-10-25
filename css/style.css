@@ -499,6 +499,9 @@ body {
     .header {
         flex-wrap: wrap;
     }
+    .logo {
+        margin-right: 32px;
+    }
     .search-form {
         order: 5;
         margin-left: 0;
@@ -508,6 +511,15 @@ body {
     }
     .promo {
         flex-wrap: wrap;
+    }
+    .footer-wrapper {
+        flex-wrap: wrap;
+    }
+    .social-links {
+        margin-left: 0;
+    }
+    .social-link:first-child {
+        margin-left: 0;
     }
 }
 @media (max-width: 576px) {
